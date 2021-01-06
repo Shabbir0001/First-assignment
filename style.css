@@ -6,10 +6,11 @@ body{
 }
 .menu{
     margin-left: 2%;
+    
 }
 section{
-    height: 500px;
-    padding-bottom: 100px;
+    height: 450px;
+    padding-bottom: 150px;
 }
 .introduce-section{
     background-repeat: no-repeat;
@@ -29,6 +30,9 @@ section{
     padding-left: 2%;
     padding-top: 60px;
 }
+.half-width img{
+    width: 100%;
+}
 h1{
     font-size: 40px;
 }
@@ -37,7 +41,7 @@ h1{
     font-family: 'Redressed', cursive;
 }
 .short-pragraph{
-    font-family: 'Noto Serif', serif;
+    font-family: 'Roboto', sans-serif;
     color: hsl(345, 86%, 20%);
     font-weight: 700px;
     text-shadow: 3px 3px 8px steelblue;
@@ -51,38 +55,42 @@ h1{
     font-weight: bold;
     box-shadow: 4px 4px 6px rgb(34, 34, 27);
 }
-.half-width{
-    width: 42%;
-    float: left;
-    margin-left: 2%;
-    padding-left: 2%;
-    padding-top: 50px;
-}
-.half-width img{
-    width: 100%;
-}
 .current-project-section{
     background-repeat: no-repeat;
     background-color: rgb(194, 187, 187);
-
+    padding-left: 100px;
+    padding-top: 10px;
 }
 .headings{
     text-align: center;
+    padding-right: 130px;
 }
 .box-making{        
     width: 25%;
     float: left;
     margin-left: 2%;
     padding-left: 2%;
-    padding-top: 5px;
+    padding-top: 2%;
+}
+.box-making img{
+    width: 90%;
+    padding-right: 30px;
 }
 .box-making-sub{
-    box-shadow: 10px 10px 15px rgb(19, 19, 14);
+    box-shadow: 10px 10px 15px black;
     border-radius: 10px;
-    height: 60%
-    float: left;
-    border-left: 7px solid;
+    height: 65%;
+    background-color: whitesmoke;
+    margin-right: 30px;
+    margin-top: 80px;
 }
 .project-title{
 
+}
+.bottom-banner img{
+    width: 80%;
+    padding-top: 80px;
+    margin-left: 130px;
+}
+.last-big-text{
 }
