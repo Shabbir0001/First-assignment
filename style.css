@@ -5,10 +5,16 @@ section{
     height: 500px;
     padding-bottom: 100px;
 }
-.Top{
+.introduce-section{
     background-repeat: no-repeat;
-    background-image: url(./images/top-banner.png)
+    background-image: url(./images/top-banner.png);
     border-radius: 40px ;
+}
+.about-section{
+    background-repeat: no-repeat;
+    background-image: url(Images/dream-bg.png);
+    border-radius: 40px;
+    background-position: right;
 }
 .half-width{
     width: 42%;
@@ -19,13 +25,12 @@ section{
 }
 h1{
     font-size: 40px;
-    font-family: 'Redressed', cursive;
-
 }
 .name{
     color: crimson;
+    font-family: 'Redressed', cursive;
 }
-.title-font{
+.short-pragraph{
     font-family: 'Noto Serif', serif;
     color: hsl(345, 86%, 20%);
     font-weight: 700px;
@@ -39,7 +44,6 @@ h1{
     color: #0f0c0e;
     font-weight: bold;
     box-shadow: 4px 4px 6px rgb(34, 34, 27);
-
 }
 .half-width{
     width: 42%;
@@ -50,5 +54,4 @@ h1{
 }
 .half-width img{
     width: 100%;
-
 }
