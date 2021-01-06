@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.Top{
+    background-repeat: no-repeat;
+    background-image: url(./images/top-banner.png)
+    border-radius: 40px ;
+}
+.half-width{
+    width: 42%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 2%;
+    padding-top: 60px;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Redressed', cursive;
+
+}
+.name{
+    color: crimson;
+}
+.title-font{
+    font-family: 'Noto Serif', serif;
+    color: hsl(345, 86%, 20%);
+    font-weight: 700px;
+    text-shadow: 3px 3px 8px steelblue;
+}
+.Link-button{
+    text-decoration: none;
+    background-image: linear-gradient(120deg, rgb(253, 80, 11), tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #0f0c0e;
+    font-weight: bold;
+    box-shadow: 4px 4px 6px rgb(34, 34, 27);
+
+}
+.half-width{
+    width: 42%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 2%;
+    padding-top: 50px;
+}
+.half-width img{
+    width: 100%;
+
+}
