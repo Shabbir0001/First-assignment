@@ -98,9 +98,10 @@ p{
     background-image: url(./images/Group_33094_1.png);
     background-repeat: no-repeat;
     background-size: 80%;
-    margin-top: 15%;
+    margin-top: 20%;
     margin-left: 17%;
     height: 300px;
+    padding-bottom: 150px;
 }
 .float{
     margin-left: 8%;
@@ -108,7 +109,9 @@ p{
 }
 .float-button{
     margin-left: 60%;
-    background-color: lightsalmon;
+    position: relative;
+    bottom: 20%;
+
 }
 .last-Link-button{
     text-decoration: none;
@@ -121,8 +124,8 @@ p{
 
 }
 .word-design{
-    text-decoration-color:lightsalmon;
-    text-shadow: 4px 4px 4px cornsilk;
+    color: lightgreen;
+    text-shadow: 4px 4px 4px darkslateblue;
 }
 .footer{
     color: rgb(50, 16, 82);
@@ -131,7 +134,7 @@ p{
 
 .last-images{
     position: absolute;
-    right: 520px;
+    right: 500px;
 }
 .last-images img{
     width: 40px;
